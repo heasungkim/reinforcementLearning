@@ -37,7 +37,7 @@ for e in range(total_episode):
                     'learning rate:', agent.learning_rate_history[len(agent.learning_rate_history)-1],
                     ' epsilon: ', agent.epsilon)
             reward_history.append(episode_reward_sum)
-            if episode_reward_sum > 5000:
+            if episode_reward_sum > 3000:
                 render = True
             break
 
